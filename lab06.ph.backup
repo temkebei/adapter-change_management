@@ -29,30 +29,6 @@
         "operator"
       ],
       "task": true
-    },
-    {
-  "name": "postRecord",
-  "summary": "Post a Change Ticket",
-  "description": "Post a ServiceNow change management ticket.",
-  "input": [],
-  "output": {
-    "name": "changeTicket",
-    "type": "array",
-    "description": "Change management ticket document.",
-    "schema": {
-      "type": "array",
-      "items": {
-        "title": "changeTicket",
-        "$ref": "changeRequest#/definitions/changeTicket"
-      }
     }
-  },
-  "roles": [
-    "admin",
-    "engineer",
-    "operator"
-  ],
-  "task": true
-}
   ]
 }
